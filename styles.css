@@ -1,0 +1,66 @@
+body{
+    background: linear-gradient(90deg, rgb(33, 192, 224), rgb(96, 220, 195));
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+    font-size: 50px;
+    text-decoration: underline;
+}
+    
+
+.inputContainer{
+    max-width: 40%;
+    height: auto;
+    background-color: rgb(136, 151, 155);
+    margin: auto;
+    padding: 20px 2px 20px 30px;
+    border: 1px solid rgb(56, 135, 157);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.inputContainer label{
+    font-size: 25px;
+    font-family: cursive, serif;
+}
+.inputContainer input{
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(209, 227, 233);
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+.inputContainer input::placeholder{
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.inputContainer button{
+    width: 40px;
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(209, 227, 233);
+    font-size: 20px;
+}
+
+.inputContainer button:hover{
+    background-color: rgb(226, 240, 245);
+    cursor: pointer;
+}
+
+.parag{
+    font-size: 20px;
+    cursor: pointer;
+}
